@@ -3,7 +3,7 @@ import os
 import csv
 
 # Specify file path
-budget_data_csv = os.path.join("..", "PythonHomework", "budget_data.csv")
+budget_data_csv = os.path.join("..", "..", "..", "DataVisHomework", "PythonHomework", "PyBank", "budget_data.csv")
 
 # Open the file. Specify Varialbe to hold the contents as csvfile
 with open(budget_data_csv, 'r', newline='') as csvfile:
