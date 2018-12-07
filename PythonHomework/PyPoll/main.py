@@ -69,6 +69,8 @@ print(new_candidate_list[0] + ': ' + str(correy_percentage) + ' ' + '(' + str(ca
 print(new_candidate_list[2] + ': ' + str(li_percentage) + ' ' + '(' + str(candidate_vote_count['Li']) + ')')
 print(new_candidate_list[3] + ': ' + str(otooley_percentage) + ' ' + '(' + str(candidate_vote_count["O'Tooley"]) + ')')
 print('')
+print('Winner: ' + winner)
+print('')
 
 
 # Print output to TextFile
@@ -83,6 +85,8 @@ print(new_candidate_list[1] + ': ' + str(khan_percentage) + ' ' + '(' + str(cand
 print(new_candidate_list[0] + ': ' + str(correy_percentage) + ' ' + '(' + str(candidate_vote_count['Correy']) + ')')
 print(new_candidate_list[2] + ': ' + str(li_percentage) + ' ' + '(' + str(candidate_vote_count['Li']) + ')')
 print(new_candidate_list[3] + ': ' + str(otooley_percentage) + ' ' + '(' + str(candidate_vote_count["O'Tooley"]) + ')')
+print('')
+print('Winner: ' + winner)
 print('')
 sys.stdout.close()
 
